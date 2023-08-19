@@ -54,6 +54,7 @@ a {
 .nav_op:hover {
   color: white;
   font-weight: 600;
+
   cursor: pointer;
 }
 .logo {
@@ -72,7 +73,7 @@ background-image:url("https://images.pexels.com/photos/2767814/pexels-photo-2767
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 100px;
+  top: 9vw;
   height: 100%;
   width: 100%;
   
@@ -126,6 +127,29 @@ tbody > tr:hover {
   width: 80%;
   
 }
+.book_container{
+    color:white;
+    font-size: 1.5vw;
+    font-weight: 600;
+    box-sizing: border-box;
+    width:100%;
+    z-index: 2000;
+    display: flex;
+}
+.book_heading{
+    display: flex;
+    align-items: center;
+    padding: 20px;;
+    height: 50px;
+    margin-left: 20px;
+    background-color:black;
+    margin-top: -60px;
+    border-radius: 1px;  
+}
+
+
+
+
 
 .form {
   background-color:#333333;
@@ -193,16 +217,18 @@ tbody > tr:hover {
 
 
   input[type="submit"] {
-    background-color: #007bff;
-    color: #fff;
+    background-color:white;
+    color:black;
     border: none;
-    padding: 10px 20px;
+    padding: 15px 25px;
     cursor: pointer;
+    border-radius: 20px;
+    font-weight: 600;
     
   }
 
   input[type="submit"]:hover {
-    background-color: #0056b3;
+   scale: 1.2;
   }
 
 
@@ -211,9 +237,12 @@ tbody > tr:hover {
     font-size: 1.5vw;
     font-weight: 600;
     box-sizing: border-box;
-    width:100%;
+    width:10vw;
     z-index: 2000;
-    display: flex;
+    position: absolute;
+    left:1vw;
+
+    
 }
 .registerHeading{
     display: flex;
@@ -222,7 +251,8 @@ tbody > tr:hover {
     height: 100px;
     margin-left: 20px;
     background-color:black;
-    margin-top: -40px
+    margin-top: -40px;
+    border-radius: 1px;
 }
 .formContainer{
     position: absolute;
