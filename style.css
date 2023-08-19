@@ -81,7 +81,7 @@ background-image:url("https://images.pexels.com/photos/2767814/pexels-photo-2767
 .books {
    
  
-  background-color: rgb(173, 178, 182);
+  background-color: #171717;
   width: 70vw;
   height: 85vh;
   box-sizing: border-box;
@@ -91,6 +91,7 @@ background-image:url("https://images.pexels.com/photos/2767814/pexels-photo-2767
   align-items: center;
   display: flex;
   flex-direction: column;
+  box-shadow: 3px 7px 8px 2px;
   
 }
 table {
@@ -104,7 +105,7 @@ table {
 }
 
 th {
-    background-color: #171717;
+    background-color: rgb(10, 10, 11);
 }
 
 th, td {
@@ -166,6 +167,7 @@ tbody > tr:hover {
   margin-bottom: 3vw;
   padding: 1vw;
   position: relative;
+  box-shadow: 3px 7px 8px 2px;
 
 } 
 
