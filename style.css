@@ -164,12 +164,12 @@
   .form {
     background-color:#333333;
     width: 70%;
-    height: 80%;
+    height: 75%;
     box-sizing: border-box;
     border-radius: 12px;
     text-align: center;
     padding: 0.5vw;
-    top: 65vw;
+    top: 130%;
     padding: 1vw;
     position: absolute;
     box-shadow: 3px 7px 8px 2px;
@@ -178,10 +178,9 @@
 
   } 
   form{
-    position: relative;
-    left: 17vw;
+    left: 12vw;
+    width: 65%;
   }
-
   .titleCol {
       display: flex;
       flex-direction: column;
@@ -219,7 +218,7 @@
       padding: 10px;
       border: 1px solid #ccc;
       width: 30vw;
-      height: 0.2vh;
+      height: 0.5vw;
     
     }
 
@@ -228,7 +227,7 @@
       background-color:white;
       color:black;
       border: none;
-      padding: 15px 25px;
+      padding: 1vw 2vw;
       cursor: pointer;
       border-radius: 20px;
       font-weight: 600;
@@ -246,8 +245,7 @@
       font-weight: 600;
       box-sizing: border-box;
       width:10vw;
-      
-      z-index: 2000;
+      z-index: 800;
       position: absolute;
       left:1vw;
 
