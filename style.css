@@ -1,262 +1,270 @@
- * {
-  margin: 0px;
-  padding: 0px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-
-.nav {
-    overflow: hidden;
-    background-color: black;
-    width: 100%;
-    height: 10vh;
-    display: flex;
-    align-items: center;
-    position: fixed; 
-    top: 0; 
-    z-index: 1000; 
-}
-
-.logo_img {
-  width: 6vh;
-  margin-left: 2vh;
-  top: 2vw;
-  left: 5vw;
-}
-#text_logo {
-  position: relative;
-  bottom: 0.5vw;
-  left: 0.1vw;
-  font-size: 1.5vw;
-  font-weight: 600;
-  text-decoration: none;
-  color: rgb(195, 195, 195);
-  margin-inline: 1.5vw;
-}
-#text_logo:hover {
-  cursor: pointer;
-  color: white;
-}
-a {
-  text-decoration: none;
-  color:rgb(144, 141, 141);
-  font-weight: 800;
-
-}
-
-.nav_op {
-  font-weight: 500;
-  text-decoration: none;
-  color: rgb(195, 195, 195);
-  margin-inline: 1.5vw;
-}
-
-.nav_op:hover {
-  color: white;
-  font-weight: 600;
-
-  cursor: pointer;
-}
-.logo {
-  flex: 1;
-}
-.options {
-  padding-inline: 1vw;
-}
-body{
-background-image:url("https://images.pexels.com/photos/2767814/pexels-photo-2767814.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-}
-.main {
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  top: 9vw;
-  height: 100%;
-  width: 100%;
-  
-}
-.books {
-   
- 
-  background-color: #171717;
-  width: 70vw;
-  height: 85vh;
-  box-sizing: border-box;
-  border-radius: 12px;
-  text-align: center;
-  padding: 0.5vw;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  box-shadow: 3px 7px 8px 2px;
-  
-}
-table {
-    border-collapse: collapse;
-    border-radius: 10px;
-    overflow: hidden;
-    width: 65vw;
-    height: 5vh ;
-    margin-top: 0.5vw;
-    
-}
-
-th {
-    background-color: rgb(10, 10, 11);
-}
-
-th, td {
-    padding: 5px;
-    text-align: center;
-    color:white;
-    font-size: 0.85vw;
-
+  * {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
-tbody{
-    background-color: #303030;
-}
 
-tbody > tr:hover {
-    background-color: #3f3f3f;
-}
+  .nav {
+      overflow: hidden;
+      background-color: black;
+      width: 100%;
+      height: 10vh;
+      display: flex;
+      align-items: center;
+      position: fixed; 
+      top: 0; 
+      z-index: 1000; 
+  }
 
-.nested-table{
-  width: 80%;
-  
-}
-.book_container{
-    color:white;
+  .logo_img {
+    width: 6vh;
+    margin-left: 2vh;
+    top: 2vw;
+    left: 5vw;
+  }
+  #text_logo {
+    position: relative;
+    bottom: 0.5vw;
+    left: 0.1vw;
     font-size: 1.5vw;
     font-weight: 600;
-    box-sizing: border-box;
-    width:100%;
-    z-index: 2000;
-    display: flex;
-}
-.book_heading{
-    display: flex;
-    align-items: center;
-    padding: 20px;;
-    height: 50px;
-    margin-left: 20px;
-    background-color:black;
-    margin-top: -60px;
-    border-radius: 1px;  
-}
-
-
-
-
-
-.form {
-  background-color:#333333;
-  width: 70vw;
-  height: 80vh;
-  box-sizing: border-box;
-  border-radius: 12px;
-  text-align: center;
-  padding: 0.5vw;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  margin-top: 10vw;
-  margin-bottom: 3vw;
-  padding: 1vw;
-  position: relative;
-  box-shadow: 3px 7px 8px 2px;
-
-} 
-
-.titleCol {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-
-
-
-
-
-
-  .registration-form {
-    background-color: #333333;
-    padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-
+    text-decoration: none;
+    color: rgb(195, 195, 195);
+    margin-inline: 1.5vw;
   }
-
-  .form-group {
-    
-    margin-top: 1vw;
-  }
-  input, textarea {
-    background-color: #333333;
-  }
-
-  label {
-    font-weight: bold;
-    display: block;
-    margin-bottom: 5px;
-    color: #ccc;
-  }
-
-  input[type="text"],
-  input[type="email"],
-  input[type="number"],
-  input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    width: 30vw;
-    height: vh;
-  }
-
-
-  input[type="submit"] {
-    background-color:white;
-    color:black;
-    border: none;
-    padding: 15px 25px;
+  #text_logo:hover {
     cursor: pointer;
-    border-radius: 20px;
+    color: white;
+  }
+  a {
+    text-decoration: none;
+    color:rgb(144, 141, 141);
+    font-weight: 800;
+
+  }
+
+  .nav_op {
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(195, 195, 195);
+    margin-inline: 1.5vw;
+  }
+
+  .nav_op:hover {
+    color: white;
     font-weight: 600;
+
+    cursor: pointer;
+  }
+  .logo {
+    flex: 1;
+  }
+  .options {
+    padding-inline: 1vw;
+  }
+  body{
+    background-image:url("https://images.pexels.com/photos/2767814/pexels-photo-2767814.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  }
+  .main {
+
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    position: relative;
+    top: 18vw;
+    height: 100%;
+    width: 100%;
     
   }
-
-  input[type="submit"]:hover {
-   scale: 1.2;
-  }
-
-
-.register{
-    color:white;
-    font-size: 1.5vw;
-    font-weight: 600;
+.books::-webkit-scrollbar{
+    width: 0px;
+}
+  .books {
+    
+  
+    background-color: #171717;
+    width: 70%;
+    height: 30%;
     box-sizing: border-box;
-    width:10vw;
-    z-index: 2000;
-    position: absolute;
-    left:1vw;
-
+    border-radius: 12px;
+    text-align: center;
+    padding: 0.6vw;
+    box-shadow: 3px 7px 8px 2px;
+    overflow-x:scroll ;
+    margin-left: auto;
+    margin-right: auto;
     
-}
-.registerHeading{
-    display: flex;
-    align-items: center;
-    padding: 20px;;
-    height: 100px;
-    margin-left: 20px;
-    background-color:black;
-    margin-top: -40px;
-    border-radius: 1px;
-}
-.formContainer{
-    position: absolute;
+  }
+  table {
+      border-collapse: collapse;
+      border-radius: 10px;
+      overflow: hidden;
+      width: 60vw;
+      height: 3vh;
+      margin-top: 2vw;
+      margin-left: auto;
+      margin-right: auto;
+      
+  }
 
-}
+  th {
+      background-color: rgb(10, 10, 11);
+  }
+
+  th, td {
+      padding: 5px;
+      text-align: center;
+      color:white;
+      font-size: 1vw;
+
+    }
+
+  tbody{
+      background-color: #303030;
+  }
+
+  tbody > tr:hover {
+      background-color: #3f3f3f;
+  }
+
+  .nested-table{
+    width: 80%;
+    
+  }
+  .book_container{
+      color:white;
+      font-size: 1.5vw;
+      font-weight: 600;
+      box-sizing: border-box;
+      width:100%;
+      width: 10vw;
+      position: absolute;
+      left: 14vw;
+      z-index: 800;
+    
+  }
+  .book_heading{
+
+      align-items: center;
+      padding-top: 4vw;
+      padding-bottom: 4vw;
+      margin-left: 2vw;
+      background-color:black;
+      margin-top: -8vw;
+      border-radius: 1px; 
+    
+  }
+
+
+
+
+
+  .form {
+    background-color:#333333;
+    width: 70%;
+    height: 80%;
+    box-sizing: border-box;
+    border-radius: 12px;
+    text-align: center;
+    padding: 0.5vw;
+    top: 65vw;
+    padding: 1vw;
+    position: absolute;
+    box-shadow: 3px 7px 8px 2px;
+    left: 17vw;
+    
+
+  } 
+  form{
+    position: relative;
+    left: 17vw;
+  }
+
+  .titleCol {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+
+    .registration-form {
+      background-color: #333333;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    }
+
+    .form-group {
+      
+      margin-top: 1vw;
+    }
+    input, textarea {
+      background-color: #333333;
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 5px;
+      color: #ccc;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    input[type="password"] {
+    
+      padding: 10px;
+      border: 1px solid #ccc;
+      width: 30vw;
+      height: 0.2vh;
+    
+    }
+
+
+    input[type="submit"] {
+      background-color:white;
+      color:black;
+      border: none;
+      padding: 15px 25px;
+      cursor: pointer;
+      border-radius: 20px;
+      font-weight: 600;
+      
+    }
+
+    input[type="submit"]:hover {
+    scale: 1.2;
+    }
+
+
+  .register{
+      color:white;
+      font-size: 1.5vw;
+      font-weight: 600;
+      box-sizing: border-box;
+      width:10vw;
+      
+      z-index: 2000;
+      position: absolute;
+      left:1vw;
+
+      
+  }
+  .registerHeading{
+      
+      padding-inline: 20px;
+      padding-top:4vw;
+      padding-bottom:4vw;
+      margin-left: 20px;
+      background-color:black;
+      margin-top: -40px;
+      border-radius: 1px;
+      
+  }
+  .formContainer{
+      position: absolute;
+
+  }
